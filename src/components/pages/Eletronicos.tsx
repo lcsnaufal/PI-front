@@ -1,15 +1,11 @@
 import React from "react";
 import Navbar from "../navbar/Navbar";
-import NavbarTipo from "../navbarTipo/NavbarTipo";
 
 
-function Home() {
+export default function Eletronicos(){
     return(
         <div>
             <Navbar/>
-            <NavbarTipo/>
         </div>
     )
 }
-
-export default Home;
