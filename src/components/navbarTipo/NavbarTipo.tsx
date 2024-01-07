@@ -7,7 +7,7 @@ import car from "../../img/car.png";
 import shirt from "../../img/shirt.png";
 import furniture from "../../img/couch.png";
 
-
+ 
 function NavbarTipo() {
     return(
         <div className="divFather">
@@ -29,7 +29,7 @@ function NavbarTipo() {
             </Link>
             <Link to={"/Instrumentos"} className="divChild">
                 <img src={instrument} alt="" className="img"/>
-                <div className="text">Instrumentos Músicais</div>
+                <div className="text">Instrumentos Musicais</div>
             </Link>
         </div>
     )

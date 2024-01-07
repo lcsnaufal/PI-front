@@ -1,8 +1,8 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
+import Navbar from "../../navbar/Navbar";
 
 
-export default function Furnitures(){
+export default function Automoveis(){
     return(
         <div>
             <Navbar/>

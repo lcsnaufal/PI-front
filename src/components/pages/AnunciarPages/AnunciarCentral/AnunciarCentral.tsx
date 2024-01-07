@@ -1,6 +1,6 @@
 import React from "react";
-import Navbar from "../navbar/Navbar";
-import AnunciarTipos from "../AnunciarTipos/AnunciarTipos";
+import Navbar from "../../../navbar/Navbar";
+import AnunciarTipos from "../../../anunciarTipos/AnunciarTipos";
 
 
 export default function AnunciarPage() {
