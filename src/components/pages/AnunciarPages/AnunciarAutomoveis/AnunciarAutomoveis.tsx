@@ -69,7 +69,7 @@ export default function AutomovelInput(){
                     <div className="automovelInputBody">
                         <input type = "text" id = "automovelPreco" placeholder="Preço" className="inputs"/>
                     </div>
-                    <button type = "submit" id="sendBtnPost" className="button" onClick={AutomovelDataPost}>Enviar</button>
+                    <button type = "submit" id="sendBtnPost" className="button" onClick={AutomovelDataPost}>Anunciar</button>
 
                 </div>
             </div>

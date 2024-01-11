@@ -61,7 +61,7 @@ export default function InstrumentoInput(){
                     <div className="instrumentoInputBody">
                         <input type = "text" id = "instrumentoPreco" placeholder="Preço" className="inputs"/>
                     </div>
-                    <button type = "submit" id="sendBtnPost" className="button" onClick={InstrumentoDataPost}>Enviar</button>
+                    <button type = "submit" id="sendBtnPost" className="button" onClick={InstrumentoDataPost}>Anunciar</button>
 
                 </div>
             </div>

@@ -10,27 +10,27 @@ export default function AnunciarTipos() {
                 Anunciar:
             </div>
             <div className="divFatherTipos">
-                <Link to={"Eletronico"}>
+                <Link to={"Eletronico"} className="link">
                     <div className="btnTipo">
                     Eletrônico
                     </div>
                 </Link>
-                <Link to={"Roupa"}>
+                <Link to={"Roupa"} className="link">
                     <div className="btnTipo">
                     Roupas
                     </div>
                 </Link>
-                <Link to={"Automovel"}>
+                <Link to={"Automovel"} className="link">
                     <div className="btnTipo">
                     Automóvel
                     </div>
                 </Link>
-                <Link to={"Movel"}>
+                <Link to={"Movel"} className="link">
                     <div className="btnTipo">
                     Móvel
                     </div>
                 </Link>
-                <Link to={"Instrumento"}>
+                <Link to={"Instrumento"} className="link">
                     <div className="btnTipo">
                     Instrumento de Música
                     </div>

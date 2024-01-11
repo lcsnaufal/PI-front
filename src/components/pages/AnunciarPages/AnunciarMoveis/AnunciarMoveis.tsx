@@ -60,7 +60,7 @@ export default function MovelInput(){
                     <div className="movelInputBody">
                         <input type = "text" id = "movelPreco" placeholder="Preço" className="inputs"/>
                     </div>
-                    <button type = "submit" id="sendBtnPost" className="button" onClick={MovelDataPost}>Enviar</button>
+                    <button type = "submit" id="sendBtnPost" className="button" onClick={MovelDataPost}>Anunciar</button>
 
                 </div>
             </div>

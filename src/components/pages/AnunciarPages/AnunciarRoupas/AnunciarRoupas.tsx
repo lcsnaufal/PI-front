@@ -66,7 +66,7 @@ export default function RoupaInput(){
                     <div className="roupaInputBody">
                         <input type = "text" id = "roupaPreco" placeholder="Preço" className="inputs"/>
                     </div>
-                    <button type = "submit" id="sendBtnPost" className="button" onClick={RoupaDataPost}>Enviar</button>
+                    <button type = "submit" id="sendBtnPost" className="button" onClick={RoupaDataPost}>Anunciar</button>
 
                 </div>
             </div>

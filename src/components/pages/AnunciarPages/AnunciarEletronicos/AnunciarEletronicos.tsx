@@ -71,7 +71,7 @@ export default function EletronicoInput(){
                     <div className="eletronicoInputBody">
                         <input type = "text" id = "eletronicoPreco" placeholder="Preço" className="inputs"/>
                     </div>
-                    <button type = "submit" id="sendBtnPost" className="button" onClick={EletronicoDataPost}>Enviar</button>
+                    <button type = "submit" id="sendBtnPost" className="button" onClick={EletronicoDataPost}>Anunciar</button>
 
                 </div>
             </div>
