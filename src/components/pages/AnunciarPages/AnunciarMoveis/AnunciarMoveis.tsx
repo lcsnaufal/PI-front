@@ -6,7 +6,6 @@ import Navbar from "../../../navbar/Navbar";
 
 async function MovelDataPost(){
 
-    var movelImagemInput = document.getElementById("movelImagem")  as HTMLInputElement || null;
     var movelNomeInput = document.getElementById("movelNome")  as HTMLInputElement || null;
     var movelTamanhoInput = document.getElementById("movelTamanho")  as HTMLInputElement || null;
     var movelCorInput = document.getElementById("movelCor")  as HTMLInputElement || null;
@@ -16,7 +15,6 @@ async function MovelDataPost(){
 
     var movelDataJson = {
 
-        "imagem": movelImagemInput.value.toString(),
         "movel": movelNomeInput.value.toString(),
         "tamanho": movelTamanhoInput.value.toString(),
         "cor": movelCorInput.value.toString(),
@@ -47,10 +45,6 @@ export default function MovelInput(){
             <div className="movelInput">
 
                 <div className="mainBody">
-
-                    <div className="movelInputBody">
-                        <input type = "text" id = "movelImagem" placeholder="Imagem" className="inputs"/>
-                    </div>
                     <div className="movelInputBody">
                         <input type = "text" id = "movelNome" placeholder="Móvel" className="inputs"/>
                     </div>

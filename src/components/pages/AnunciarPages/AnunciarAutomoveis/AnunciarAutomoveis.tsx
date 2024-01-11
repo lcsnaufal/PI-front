@@ -6,7 +6,6 @@ import Navbar from "../../../navbar/Navbar";
 
 async function AutomovelDataPost(){
 
-    var automovelImagemInput = document.getElementById("automovelImagem")  as HTMLInputElement || null;
     var automovelMarcaInput = document.getElementById("automovelMarca")  as HTMLInputElement || null;
     var automovelModeloInput = document.getElementById("automovelModelo")  as HTMLInputElement || null;
     var automovelAnoInput = document.getElementById("automovelAno")  as HTMLInputElement || null;
@@ -18,7 +17,6 @@ async function AutomovelDataPost(){
 
     var automovelDataJson = {
 
-        "imagem": automovelImagemInput.value.toString(),
         "marca": automovelMarcaInput.value.toString(),
         "modelo": automovelModeloInput.value.toString(),
         "ano": automovelAnoInput.value.toString(),
@@ -26,8 +24,6 @@ async function AutomovelDataPost(){
         "km": automovelKmInput.value.toString(),
         "numero": automovelNumeroInput.value.toString(),
         "preco": automovelPrecoInput.value.toString()
-        
-    
     }
 
 
@@ -52,9 +48,6 @@ export default function AutomovelInput(){
 
                 <div className="mainBody">
 
-                    <div className="automovelInputBody">
-                        <input type = "text" id = "automovelImagem" placeholder="Imagem" className="inputs"/>
-                    </div>
                     <div className="automovelInputBody">
                         <input type = "text" id = "automovelMarca" placeholder="Marca" className="inputs"/>
                     </div>

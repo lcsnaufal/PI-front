@@ -6,7 +6,6 @@ import Navbar from "../../../navbar/Navbar";
 
 async function EletronicoDataPost(){
 
-    var eletronicoImagemInput = document.getElementById("eletronicoImagem")  as HTMLInputElement || null;
     var eletronicoMarcaInput = document.getElementById("eletronicoMarca")  as HTMLInputElement || null;
     var eletronicoModeloInput = document.getElementById("eletronicoModelo")  as HTMLInputElement || null;
     var eletronicoCorInput = document.getElementById("eletronicoCor")  as HTMLInputElement || null;
@@ -18,7 +17,6 @@ async function EletronicoDataPost(){
 
     var eletronicoDataJson = {
 
-        "imagem": eletronicoImagemInput.value.toString(),
         "marca": eletronicoMarcaInput.value.toString(),
         "modelo": eletronicoModeloInput.value.toString(),
         "cor": eletronicoCorInput.value.toString(),
@@ -52,9 +50,6 @@ export default function EletronicoInput(){
 
                 <div className="mainBody">
 
-                    <div className="eletronicoInputBody">
-                        <input type = "text" id = "eletronicoImagem" placeholder="Imagem" className="inputs"/>
-                    </div>
                     <div className="eletronicoInputBody">
                         <input type = "text" id = "eletronicoMarca" placeholder="Marca" className="inputs"/>
                     </div>

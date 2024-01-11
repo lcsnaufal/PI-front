@@ -6,19 +6,19 @@ import Navbar from "../../../navbar/Navbar";
 
 async function RoupaDataPost(){
 
-    var roupaImagemInput = document.getElementById("roupaImagem")  as HTMLInputElement || null;
     var roupaMarcaInput = document.getElementById("roupaMarca")  as HTMLInputElement || null;
     var roupaTipoInput = document.getElementById("roupaTipo")  as HTMLInputElement || null;
+    var roupaTamanhoInput = document.getElementById("roupaTamanho") as HTMLInputElement || null;
     var roupaCorInput = document.getElementById("roupaCor")  as HTMLInputElement || null;
     var roupaNumeroInput = document.getElementById("roupaNumero")  as HTMLInputElement || null;
     var roupaPrecoInput = document.getElementById("roupaPreco")  as HTMLInputElement || null;
-    var roupaUrl = "http://localhost:8080/api/automoveis";
+    var roupaUrl = "http://localhost:8080/api/roupas";
 
     var roupaDataJson = {
 
-        "imagem": roupaImagemInput.value.toString(),
         "marca": roupaMarcaInput.value.toString(),
-        "modelo": roupaTipoInput.value.toString(),
+        "tipo": roupaTipoInput.value.toString(),
+        "tamanho": roupaTamanhoInput.value.toString(),
         "cor": roupaCorInput.value.toString(),
         "numero": roupaNumeroInput.value.toString(),
         "preco": roupaPrecoInput.value.toString()
@@ -48,9 +48,6 @@ export default function RoupaInput(){
 
                 <div className="mainBody">
 
-                    <div className="roupaInputBody">
-                        <input type = "text" id = "roupaImagem" placeholder="Imagem" className="inputs"/>
-                    </div>
                     <div className="roupaInputBody">
                         <input type = "text" id = "roupaMarca" placeholder="Marca" className="inputs"/>
                     </div>

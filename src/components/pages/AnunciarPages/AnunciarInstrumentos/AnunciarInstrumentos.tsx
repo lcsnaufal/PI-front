@@ -6,7 +6,6 @@ import Navbar from "../../../navbar/Navbar";
 
 async function InstrumentoDataPost(){
 
-    var instrumentoImagemInput = document.getElementById("instrumentoImagem")  as HTMLInputElement || null;
     var instrumentoMarcaInput = document.getElementById("instrumentoMarca")  as HTMLInputElement || null;
     var instrumentoTipoInput = document.getElementById("instrumentoTipo")  as HTMLInputElement || null;
     var instrumentoCorInput = document.getElementById("instrumentoCor")  as HTMLInputElement || null;
@@ -16,7 +15,6 @@ async function InstrumentoDataPost(){
 
     var instrumentoDataJson = {
 
-        "imagem": instrumentoImagemInput.value.toString(),
         "marca": instrumentoMarcaInput.value.toString(),
         "tipo": instrumentoTipoInput.value.toString(),
         "cor": instrumentoCorInput.value.toString(),
@@ -48,9 +46,6 @@ export default function InstrumentoInput(){
 
                 <div className="mainBody">
 
-                    <div className="instrumentoInputBody">
-                        <input type = "text" id = "instrumentoImagem" placeholder="Imagem" className="inputs"/>
-                    </div>
                     <div className="instrumentoInputBody">
                         <input type = "text" id = "instrumentoMarca" placeholder="Marca" className="inputs"/>
                     </div>
